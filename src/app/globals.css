@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import 'tailwindcss';
 @import 'tw-animate-css';
 
@@ -39,6 +40,7 @@
     --radius-md: calc(var(--radius) - 2px);
     --radius-lg: var(--radius);
     --radius-xl: calc(var(--radius) + 4px);
+    --font-montserrat: 'Montserrat', sans-serif;
 }
 
 :root {
@@ -79,10 +81,10 @@
 @layer base {
     * {
         @apply border-border outline-ring/50;
-        font-family: 'Switzer', sans-serif;
     }
     body {
         @apply bg-background text-foreground;
+        @apply font-montserrat;
     }
 }
 
