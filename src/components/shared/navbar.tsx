@@ -1,4 +1,4 @@
-import { Book, Menu, PhoneCallIcon, Sunset, Trees, Zap } from 'lucide-react';
+import { Menu, PhoneCallIcon } from 'lucide-react';
 
 import {
     Accordion,

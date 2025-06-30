@@ -8,4 +8,4 @@ export interface NavItem {
     items?: NavItems;
 }
 
-export interface NavItems extends Array<NavItem> {}
+export type NavItems = NavItem[];

@@ -80,9 +80,9 @@ export default function RootContactPage() {
                     <CardHeader>
                         <CardTitle className="text-2xl">Contact us</CardTitle>
                         <CardDescription>
-                            We're here to help you find the right solution. Fill
-                            out the form below and we'll get back to you as soon
-                            as possible.
+                            We&apos;re here to help you find the right solution.
+                            Fill out the form below and we&apos;ll get back to
+                            you as soon as possible.
                         </CardDescription>
                     </CardHeader>
                     <CardContent>
